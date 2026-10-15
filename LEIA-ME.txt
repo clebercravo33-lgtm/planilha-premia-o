@@ -1,0 +1,12 @@
+PWA — PREMIAÇÃO GRUPO NICO
+
+PUBLICAR NO GITHUB PAGES
+1. Extraia este ZIP.
+2. Envie index.html, manifest.webmanifest, sw.js e a pasta icons para a raiz do repositório GitHub.
+3. Em Settings > Pages, ative a publicação a partir da branch/pasta desejada.
+4. Abra o endereço HTTPS publicado no celular e use “Adicionar à tela inicial”/“Instalar app”.
+
+IMPORTANTE SOBRE OS DADOS ENTRE APARELHOS
+O PWA permite instalar o aplicativo e manter arquivos básicos disponíveis offline. Isso não sincroniza automaticamente os dados entre aparelhos: o HTML usa localStorage e inclui integração opcional com Supabase. Para compartilhar os mesmos dados em todos os dispositivos, configure um projeto Supabase, tabelas e permissões/RLS corretas em Config. Sem essa configuração, cada aparelho pode ter dados locais diferentes.
+
+O arquivo original foi preservado funcionalmente; foram adicionados os arquivos básicos de PWA e registro do service worker.
